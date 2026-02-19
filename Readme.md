@@ -24,10 +24,63 @@ This project provides a comprehensive market analysis of over **21,600 housing t
 The analysis was performed on a cleaned dataset featuring 21 columns of property data, including price, size, age, and geographical coordinates.
 
 ### Key Processing Steps:
-* **Data Cleaning:**
- > *1️⃣ Column Standardization
-  Renamed all columns to lowercase.
-  Replaced spaces and special characters with underscores.
+## 🧹 Data Cleaning & Preprocessing
+
+The raw housing dataset was cleaned and transformed to make it suitable for machine learning modeling. The following steps were performed:
+
+---
+
+### 1️⃣ Column Standardization
+
+- Renamed all columns to lowercase.
+- Replaced spaces and special characters with underscores.
+- Improved consistency and readability of column names.
+
+---
+
+### 2️⃣ Removed Irrelevant Features
+
+The following columns were removed:
+
+- `ID`
+- `No_of_Times_Visited`
+
+**Reason:**  
+These features do not contribute to house price prediction and may introduce unnecessary noise into the model.
+
+---
+
+### 3️⃣ Handling Missing Values
+
+- Identified missing/null values in the dataset.
+- Applied appropriate handling techniques to reduce missing data.
+- Improved overall dataset quality and reliability.
+
+---
+
+### 4️⃣ Feature Engineering
+
+- Created new meaningful features to improve model performance.
+- Derived additional attributes from existing columns where necessary.
+- Enhanced the predictive capability of the dataset.
+
+---
+
+### 5️⃣ Data Type Optimization
+
+- Ensured numeric columns are in proper numeric format.
+- Corrected inconsistent data types.
+- Verified the dataset is fully ready for machine learning modeling.
+
+---
+
+## ✅ Final Dataset Status
+
+- Cleaned and standardized dataset
+- Reduced missing values
+- Optimized for ML pipeline
+- Ready for training predictive models
+
 * **Calculated Metrics:** Created `Price per Sqft` and `House Age` to allow for "Apples-to-Apples" comparisons across different neighborhoods.
 * **Pivot Table Aggregation:** Built 11 distinct pivot tables to isolate variables such as the **Waterfront Premium** ($958k vs $508k) and the **Renovation Effect** ($656k vs $505k).
 
