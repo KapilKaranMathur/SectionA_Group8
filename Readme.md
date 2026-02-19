@@ -24,7 +24,10 @@ This project provides a comprehensive market analysis of over **21,600 housing t
 The analysis was performed on a cleaned dataset featuring 21 columns of property data, including price, size, age, and geographical coordinates.
 
 ### Key Processing Steps:
-* **Data Cleaning:** Standardized currency, handled null values, and validated zipcode data.
+* **Data Cleaning:**
+  1️⃣ Column Standardization
+  Renamed all columns to lowercase.
+  Replaced spaces and special characters with underscores.
 * **Calculated Metrics:** Created `Price per Sqft` and `House Age` to allow for "Apples-to-Apples" comparisons across different neighborhoods.
 * **Pivot Table Aggregation:** Built 11 distinct pivot tables to isolate variables such as the **Waterfront Premium** ($958k vs $508k) and the **Renovation Effect** ($656k vs $505k).
 
