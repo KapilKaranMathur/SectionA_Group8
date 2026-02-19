@@ -62,7 +62,6 @@ The final dashboard consists of **11 interactive charts** designed for executive
 ---
 
 ## Repository Structure
-## Repository Structure
 - `Calculation&Pivot_Table`: Pivot table exports and calculation workbooks.
 - `CleanedDataset`: Contains `Cleaned.csv` and notes about data cleaning.
 - `Dashboard`: Dashboard assets and `Raw Housing Prices Dashboard (1).csv`.
