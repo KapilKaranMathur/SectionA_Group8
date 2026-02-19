@@ -24,13 +24,13 @@ This project provides a comprehensive market analysis of over **21,600 housing t
 The analysis was performed on a cleaned dataset featuring 21 columns of property data, including price, size, age, and geographical coordinates.
 
 ### Key Processing Steps:
-## 🧹 Data Cleaning & Preprocessing
+##  Data Cleaning & Preprocessing
 
 The raw housing dataset was cleaned and transformed to make it suitable for machine learning modeling. The following steps were performed:
 
 ---
 
-### 1️⃣ Column Standardization
+### 1. Column Standardization
 
 - Renamed all columns to lowercase.
 - Replaced spaces and special characters with underscores.
@@ -38,7 +38,7 @@ The raw housing dataset was cleaned and transformed to make it suitable for mach
 
 ---
 
-### 2️⃣ Removed Irrelevant Features
+### 2. Removed Irrelevant Features
 
 The following columns were removed:
 
@@ -50,7 +50,7 @@ These features do not contribute to house price prediction and may introduce unn
 
 ---
 
-### 3️⃣ Handling Missing Values
+### 3. Handling Missing Values
 
 - Identified missing/null values in the dataset.
 - Applied appropriate handling techniques to reduce missing data.
@@ -58,7 +58,7 @@ These features do not contribute to house price prediction and may introduce unn
 
 ---
 
-### 4️⃣ Feature Engineering
+### 4. Feature Engineering
 
 - Created new meaningful features to improve model performance.
 - Derived additional attributes from existing columns where necessary.
@@ -66,7 +66,7 @@ These features do not contribute to house price prediction and may introduce unn
 
 ---
 
-### 5️⃣ Data Type Optimization
+### 5. Data Type Optimization
 
 - Ensured numeric columns are in proper numeric format.
 - Corrected inconsistent data types.
@@ -74,7 +74,7 @@ These features do not contribute to house price prediction and may introduce unn
 
 ---
 
-## ✅ Final Dataset Status
+## Final Dataset Status
 
 - Cleaned and standardized dataset
 - Reduced missing values
