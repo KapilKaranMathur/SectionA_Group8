@@ -12,15 +12,15 @@
 	</a>
 </div>
 
-## 📌 Project Overview
+## Project Overview
 This project provides a comprehensive market analysis of over **21,600 housing transactions**. By cleaning raw transactional data and applying advanced aggregation techniques, this analysis identifies the key drivers of property value—ranging from waterfront premiums to renovation ROI—to guide a real estate investment firm’s acquisition strategy.
 
-### 🎯 Primary Decision Question
+### Primary Decision Question
 > *"Which specific property attributes and neighborhood factors (waterfront views, house condition, or recent renovations) most significantly influence sale prices, and how should an investment firm prioritize portfolio acquisitions to maximize potential returns?"*
 
 ---
 
-## 🛠️ Data & Methodology
+## Data & Methodology
 The analysis was performed on a cleaned dataset featuring 21 columns of property data, including price, size, age, and geographical coordinates.
 
 ### Key Processing Steps:
@@ -30,7 +30,7 @@ The analysis was performed on a cleaned dataset featuring 21 columns of property
 
 ---
 
-## 📊 Dashboard Visualizations
+## Dashboard Visualizations
 The final dashboard consists of **11 interactive charts** designed for executive-level decision-making:
 
 ### 1. Market Snapshot
@@ -54,15 +54,15 @@ The final dashboard consists of **11 interactive charts** designed for executive
 
 ---
 
-## 💡 Strategic Recommendations
+## Strategic Recommendations
 * **Focus on Renovation:** Data shows a **$151,000+** average premium for renovated homes, suggesting a high-ROI "Fix-and-Flip" strategy is viable.
 * **Target "Fair" Condition Volume:** The "Fair" condition segment represents the highest liquidity (14,000+ sales), making it the safest tier for rapid portfolio scaling.
 * **Value Efficiency:** Acquisition efforts should prioritize zipcodes with low cost-per-square-foot but high overall grades to capture maximum appreciation.
 
 ---
 
-## 📁 Repository Structure
-## 📁 Repository Structure
+## Repository Structure
+## Repository Structure
 - `Calculation&Pivot_Table`: Pivot table exports and calculation workbooks.
 - `CleanedDataset`: Contains `Cleaned.csv` and notes about data cleaning.
 - `Dashboard`: Dashboard assets and `Raw Housing Prices Dashboard (1).csv`.
