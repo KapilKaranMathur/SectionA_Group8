@@ -25,7 +25,7 @@ The analysis was performed on a cleaned dataset featuring 21 columns of property
 
 ### Key Processing Steps:
 * **Data Cleaning:**
-  1️⃣ Column Standardization
+  *1️⃣ Column Standardization
   Renamed all columns to lowercase.
   Replaced spaces and special characters with underscores.
 * **Calculated Metrics:** Created `Price per Sqft` and `House Age` to allow for "Apples-to-Apples" comparisons across different neighborhoods.
